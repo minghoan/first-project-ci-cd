@@ -9,4 +9,3 @@ jobs:
     steps:
       - run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
       - run: echo "Hello, Today is $TODAY!"
-      - run: node index.js
