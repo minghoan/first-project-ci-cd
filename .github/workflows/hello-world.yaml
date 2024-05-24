@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: mheap/github-action-required-labels@v1
         with:
-          mode: 'require'
+          mode: exactly
           count: 0
           labels: 'bug'
       - run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
