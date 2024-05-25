@@ -1,5 +1,5 @@
 console.log('Hello Minh Hoang');
-console.log('Hello feature/pull-request');
+console.log('Hello main');
 
 // generate function add two number
 function add(a, b) {
